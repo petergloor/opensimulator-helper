@@ -27,11 +27,10 @@ You will also need PHP to be active with the xmlrpc extension (in Ubuntu this is
 
 3) Edit the economy parameter in the [GridInfo] section in your bin/Robust.ini OpenSimulator file (or Robust.HG.ini if appropriate) so that it is set to the webfolder containing landtool.php.  For instance, if landtool.php is accessible via the URL http://example.com/landtool.php, then you will need to configure
 
-[GridInfo]
-
-economy = http://example.com/
-
-Since the viewer is contacting this URL directly, it must be accessible to anybody who logs in to your grid.
+        [GridInfo]
+        economy = http://example.com/
+        
+    Since the viewer is contacting this URL directly, it must be accessible to anybody who logs in to your grid.
 
 4) Restart the ROBUST instance hosting the login service.  Users that have previously logged in to your grid with a viewer that records grid URLs may need to refresh this information.
 
