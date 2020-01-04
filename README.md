@@ -1,6 +1,10 @@
 opensimulator-helper
 ====================
 
+```diff
+- NOTE: I no longer maintain or update this code! -
+```
+
 Very small repository for containing PHP helper code necessary for some transactions involving an economy (e.g. selling land even for $0). This code is a modified fork of the opensimulator-helper provided by Justin Clark-Casey. 
 
 The code originally comes from Melanie Theilker and Teravus Ovares with some cleanup by BlueWall.  Originating version was the opensim-wi project (http://forge.opensimulator.org/gf/project/opensimwi/).
